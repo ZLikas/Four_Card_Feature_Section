@@ -30,12 +30,12 @@ article {
     font-size: 15px;
 }
   /* Main Heading text*/
-    /* First container */
-.containermini {
+    /* First container and all containers text and svg setting */
+.containerminiOne {
     background-color: white;
     width: 312px;
     height: 217px;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     border-radius:13px/5px;
     box-shadow: 0px 20px 20px rgba(22, 22, 137, 0.1);
     border-top: 5px solid hsl(180, 62%, 55%);
@@ -54,6 +54,102 @@ article {
 .icon {
     display: flex;
     justify-content: right;
-    margin-right: 25px;
+    margin-right: 29px;
 }
-  /* First container End*/
+  /* First container End */
+  /* Second container*/
+  .containerminiTwo {
+    background-color: white;
+    width: 312px;
+    height: 217px;
+    margin: 0 auto 25px;
+    border-radius:13px/5px;
+    box-shadow: 0px 20px 20px rgba(22, 22, 137, 0.1);
+    border-top: 5px solid hsl(0, 78%, 62%);
+  }
+  /* Second container End*/
+   /* Third container */
+   .containerminiThree {
+    background-color: white;
+    width: 312px;
+    height: 217px;
+    margin: 0 auto 25px;
+    border-radius:13px/5px;
+    box-shadow: 0px 20px 20px rgba(22, 22, 137, 0.1);
+    border-top: 5px solid hsl(34, 97%, 64%);
+   }
+    /* Third container End */
+    /* Fourth containe0r */
+    .containerminiFour {
+        background-color: white;
+        width: 312px;
+        height: 217px;
+        margin: 0 auto 25px;
+        border-radius:13px/5px;
+        box-shadow: 0px 20px 20px rgba(22, 22, 137, 0.1);
+        border-top: 5px solid hsl(212, 86%, 64%);
+       }
+     /* Fourth container End */
+    /* Media querry for over 375px wide devices*/
+    @media screen and (min-width: 1200px) {
+        .articleParagraf {
+            margin: 0px 450px;
+        }
+    }
+    @media screen and (min-width: 889px) {
+        h1 {
+            font-size: 37px;
+            margin-bottom: 14px;
+        }
+        article {
+            text-align: center;
+            margin-top: 24px;
+            margin-bottom: 63px;
+        }
+        .desktopsizeLayout {
+            display: flex;
+            justify-content: center;
+            max-width: 1113px;
+            margin: 0 auto;
+        }
+
+        .containerminiOne {
+            background-color: white;
+            width: 350px;
+            height: 246px;
+            margin: 120px 30px 0px 0px; ;
+        }
+        .containerminiTwo {
+            background-color: white;
+            width: 350px;
+            height: 246px;
+            margin: 0 auto 30px;
+        }
+          .containerminiThree {
+            background-color: white;
+            width: 350px;
+            height: 246px;
+            margin: 0 auto 5px;
+           }
+        .containerminiFour {
+            background-color: white;
+            width: 330px;
+            height: 246px;
+            margin: 120px 0px 0px 30px;
+           }
+        .containerminitext {
+            margin: 28px 31px;
+        }
+        .containerH2 {
+            margin-bottom: 0px;
+            font-size: 20px;
+        }
+        .containerP {
+            margin-top: 10px;
+            margin-bottom: 47px;
+        }
+        .icon {
+            margin-right: 29px;
+        }
+             }
+             /*Media querry Ends*/
